@@ -1,0 +1,54 @@
+# Diretórios de dados
+data/
+*/data/
+!src/data/
+results/
+models/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDEs e editores
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Ambiente virtual
+venv/
+env/
+ENV/
+
+# Arquivos de ambiente e configuração
+.env
+.env.local
+.env.*.local
+config.local.py
+
+# Logs
+*.log
+logs/
